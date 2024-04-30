@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\lenovo\AndroidStudioProjects\MyApplication\app\OpenCV-android-sdk\sdk\.cxx\Debug\a5i1k53m\x86'
+ninja: no work to do.

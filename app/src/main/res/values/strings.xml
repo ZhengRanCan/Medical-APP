@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">APP</string>
+    <!-- 主界面 -->
+    <string name="inital1">舌诊</string>
+    <string name="inital2">智能舌诊</string>
+    <string name="inital3">舌诊报告</string>
+    <string name="btn1">相机</string>
+    <string name="btn2">病人信息</string>
+    <string name="btn3">病人舌头照片</string>
+
+
+    <!-- 用户信息界面 -->
+    <string name="UserInfo0_0">信息显示</string>
+    <string name="UserInfo0_1">添加</string>
+    <!-- 添加用户基础信息界面 -->
+    <string name="UserInfo1_0">编号:</string>
+    <string name="UserInfo1_1">请输入编号</string>
+    <string name="UserInfo1_2">姓名:</string>
+    <string name="UserInfo1_3">请输入姓名</string>
+    <string name="UserInfo1_4">性别:</string>
+    <string name="UserInfo1_9">男</string>
+    <string name="UserInfo1_10">女</string>
+    <!-- 添加用户医疗界面 -->
+    <string name="UserInfo1_5">就诊时间:</string>
+    <string name="UserInfo1_6">就诊科室:</string>
+    <string name="UserInfo1_11">拍摄</string>
+    <string name="UserInfo1_12">日期选择</string>
+    <string name="UserInfo1_13">已有照片</string>
+
+
+    <!-- 添加用户展示界面 -->
+    <string name="UserInfo_0">编号:</string>
+    <string name="UserInfo_1">姓名:</string>
+    <string name="UserInfo_2">性别:</string>
+    <string name="UserInfo_3">就诊时间:</string>
+    <string name="UserInfo_4">就诊科室:</string>
+
+    <!-- 添加用户舌头展示界面 -->
+    <string name="UserInfo_photo">拍照</string>
+
+    <!-- 添加用户相机界面 -->
+    <string name="Camera2_api1">请将舌头对准</string>
+    <string name="Camera2_api2">拍照</string>
+    <string name="Camera2_api3">返回</string>
+    <string name="Camera2_api4">翻转摄像头</string>
+
+</resources>

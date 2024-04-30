@@ -1,0 +1,26 @@
+{
+  "installationFolder": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\build\\intermediates\\prefab_package\\debug\\prefab",
+  "gradlePath": ":opencv",
+  "packageInfo": {
+    "packageName": "opencv",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\native\\jni\\include",
+        "moduleExportLibraries": [],
+        "abis": [
+          {
+            "abiName": "x86",
+            "abiApi": 27,
+            "abiNdkMajor": 25,
+            "abiStl": "c++_shared",
+            "abiLibrary": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\x86\\libopencv_jni_shared.a",
+            "abiAndroidGradleBuildJsonFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\x86\\android_gradle_build.json"
+          }
+        ]
+      }
+    ]
+  }
+}

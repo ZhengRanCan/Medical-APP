@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:contentDescription="@string/btn2"
+        android:layout_marginEnd="20dp"
+        >
+    </ImageView>
+    <!-- 编号-->
+    <TextView
+        android:id="@+id/out1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image"
+        android:layout_toEndOf="@+id/image"
+        android:text="@string/UserInfo_0"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/output1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/out1"/>
+
+    <!-- 姓名-->
+    <TextView
+        android:id="@+id/out2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/out1"
+        android:layout_toEndOf="@+id/image"
+        android:text="@string/UserInfo_1"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/output2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/out2"
+        android:layout_below="@+id/output1"/>
+
+    <!-- 性别-->
+    <TextView
+        android:id="@+id/out3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/out2"
+        android:layout_toEndOf="@+id/image"
+        android:text="@string/UserInfo_2"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/output3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/output2"
+        android:layout_toEndOf="@+id/out3"/>
+
+    <!-- 时间-->
+    <TextView
+        android:id="@+id/out4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/out3"
+        android:layout_toEndOf="@+id/image"
+        android:layout_marginEnd="10dp"
+        android:text="@string/UserInfo_3"/>
+    <TextView
+        android:id="@+id/output4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/out4"
+        android:layout_below="@+id/output3"/>
+
+    <!-- 科室-->
+    <TextView
+        android:id="@+id/out5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/out4"
+        android:layout_toEndOf="@+id/image"
+        android:layout_marginEnd="10dp"
+        android:text="@string/UserInfo_4"/>
+    <TextView
+        android:id="@+id/output5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/out5"
+        android:layout_below="@+id/output4" />
+
+
+
+
+
+
+
+</RelativeLayout>
