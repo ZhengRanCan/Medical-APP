@@ -1,5 +1,5 @@
 {
-  "abi": "x86",
+  "abi": "arm64-v8a",
   "api": 27,
   "ndk": 25,
   "stl": "c++_shared",
