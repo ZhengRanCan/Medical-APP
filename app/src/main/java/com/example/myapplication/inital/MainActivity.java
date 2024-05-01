@@ -7,18 +7,13 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.util.Log;
-
 import android.widget.Button;
 import android.Manifest;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import org.opencv.android.OpenCVLoader;
-
 import com.example.myapplication.R;
 import com.example.myapplication.tonguedetection.UserInfo0;
 import com.example.myapplication.tonguereport.External_PhotoGalleryActivity;
@@ -35,12 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btn_tongue = findViewById(R.id.tongue);
         btn_report = findViewById(R.id.report);
 
-        //初始化opencv
-        if (!OpenCVLoader.initLocal()) {
-            Log.e("OpenCV", "Unable to load OpenCV!");
-        } else {
-            Log.d("OpenCV", "OpenCV loaded successfully!");
-        }
+
 
         //切换智能舌诊界面
         btn_tongue.setOnClickListener(v->{

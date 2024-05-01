@@ -12,12 +12,12 @@
         "moduleExportLibraries": [],
         "abis": [
           {
-            "abiName": "x86",
+            "abiName": "arm64-v8a",
             "abiApi": 27,
             "abiNdkMajor": 25,
             "abiStl": "c++_shared",
-            "abiLibrary": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\x86\\libopencv_jni_shared.a",
-            "abiAndroidGradleBuildJsonFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\x86\\android_gradle_build.json"
+            "abiLibrary": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\arm64-v8a\\libopencv_jni_shared.a",
+            "abiAndroidGradleBuildJsonFile": "C:\\Users\\lenovo\\AndroidStudioProjects\\MyApplication\\app\\OpenCV-android-sdk\\sdk\\.cxx\\Debug\\a5i1k53m\\arm64-v8a\\android_gradle_build.json"
           }
         ]
       }
